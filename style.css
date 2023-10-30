@@ -1,6 +1,9 @@
 
 body{
     background-color: #0F0F0F;
+    font-family: 'Orbitron';
+    
+    
 }
 
 
@@ -69,7 +72,7 @@ body{
   
   /* Style navigation menu links */
   .topnav a {
-    color: black;
+    color: #EBE76C;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -91,8 +94,9 @@ body{
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #ddd;
-    color: #FFC436;
+    background-color: #EBE76C;
+    color: #ED7B7B;
+    border-radius: 12px;
     
   }
   
@@ -134,7 +138,9 @@ body{
     padding: 6px 20px;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'orbitron';
+    font-size: 9px;
     background-color: #EEEEEE;
     color: #4D4C7D;
     border-radius: 12px;
@@ -159,7 +165,20 @@ button:active {
   }
 }
 
+.shoeText{
+  margin-bottom: 10px;
+  font-size: 13px;
+}
 
+.priceText{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.buyButton{
+  margin-bottom: 20px;
+  font-size: 13px;
+}
 
 
 
@@ -179,7 +198,7 @@ button:active {
 
 .latestArrivals {
   position: relative;
-  height: 300px;
+  height: auto;
   width: 20%;
   margin-left: auto;
   margin-right: auto;
@@ -260,14 +279,17 @@ button:active {
   width: 100%;
   height: auto;
   text-align: center;
+  
 }
 
 .policies{
   padding: 20px;
   text-align: center;
+  color: #EBE76C;
 }
 
-.socialsdiv{
+h4{
+  font-weight: 100;
 }
 
 .socials{
